@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carta de San Valentín</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body onclick="playaudio()">
+
+   
+
+<div class="valentines-day">
+  <div class="envelope"></div>
+  <div class="heart"></div>
+  <div class="text">HAPPY <br>VALENTINE'S <br>DAY!</div>
+  <div class="front"></div>
+</div>
+
+<div id="card">
+  <div class="side one"></div>
+  <div class="side two">
+    <h2>NEVIS NICOL</h2>
+    <i>Feliz san valentin amor, en este día tan importanque quiero recordarte que eres lo mas importante en mi vida, desde que llegaste me he sentido el hombre mas afortunado del mundo. Eres la luz que ilumina mis días mas oscuros. En este día especial quiero recordarte lo mucho que significas para mí , la razón por la que sonrío constantemente y el amor que llena mi corazón. Te amo más de lo que las palabras pueden expresar, eres una persona muy especial para mí, la prioridad de mi vida, cada momento contigo es único y me hace muy feliz, quiero que sepas que me veo contigo para siempre, cumpliendo nuestras metas, y luchando juntos contra cualquier obstáculo, te amo, y no me cansaré de hacerlo ni recordartelo. Agradezo que llegaras a mi vida muchas veces te lo he dicho y no me cansaré de decirlo, pero fuiste, eres y serás la mujer mas hermosa, preciosa, bonita y única del mundo amo todo de ti, tus hermosos ojos de color café, tu hermosa sonrisa, tu pelo, tu voz, todo simplemente lo amo todo. Quién sabe que nos depare el futuro, pero no importa lo que venga, yo haré todo a mi poder para que vivamos un futuro feliz . Despues de todo, yo ya no pienso más que solo en ti, en mis planes, en mis sueños no hay ninguno en el cual tú no estés a mi lado, por eso yo lucharé por nuestro amor hasta el fin de los tiempos.</i>
+  </div>
+</div>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src="./script.js"></script>
+<audio id="musica1" loops>
+    <source src="cancion.mp3" type="audio/mpeg">
+</audio>
+<script>
+    function playaudio() {
+        document.getElementById("musica1").play();
+    }
+</script>
+</body>
+</html>
